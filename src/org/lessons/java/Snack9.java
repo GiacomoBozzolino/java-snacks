@@ -16,7 +16,6 @@ public class Snack9 {
             }
         }
 
-
         int[] oddArray = new int[oddCount];
         int[] evenArray = new int[evenCount];
 
