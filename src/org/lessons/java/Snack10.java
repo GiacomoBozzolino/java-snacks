@@ -13,7 +13,6 @@ public class Snack10 {
         System.out.print("Inserisci il secondo numero: ");
         int secondoNumero = in.nextInt();
 
-        // Chiusura dello scanner dopo l'acquisizione
         in.close();
 
         // Trova il minimo e il massimo tra i due numeri
