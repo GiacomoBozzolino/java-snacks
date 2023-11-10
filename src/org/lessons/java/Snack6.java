@@ -1,7 +1,7 @@
 package org.lessons.java;
 
 public class Snack6 {
-	 public static void main(String[] Args) { 
+	 public static void main(String[] args) { 
 		 
 		String strNumber = "12345";
 		int number = 0;

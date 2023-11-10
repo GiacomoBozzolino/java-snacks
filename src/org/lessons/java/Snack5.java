@@ -3,7 +3,7 @@ package org.lessons.java;
 import java.util.Scanner;
 
 public class Snack5 {
-    public static void main(String[] Args) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String input = "";
 
