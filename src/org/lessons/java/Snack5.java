@@ -19,15 +19,18 @@ public class Snack5 {
 
             // Ciclo for per il conteggio, la condizione evita che 0 venga contato come numero ma chiuda solo il programma
             if (!input.equals("0")) {
-                for (char carattere : input.toCharArray()) {
-                    if (Character.isLetter(carattere)) {
-                        caratteriAlfabetici++;
-                    } else if (Character.isDigit(carattere)) {
-                        numeri++;
-                    } else {
-                        simboliNonAlfanumerici++;
-                    }
-                }
+            	 for (int i = 0; i < input.length(); i++) {
+                     char carattere = input.charAt(i);
+                     if (Character.isLetter(carattere)) {
+                         caratteriAlfabetici++;
+                     }
+                     else if (Character.isDigit(carattere)) {
+                         numeri++;
+                     }
+                     else {
+                         simboliNonAlfanumerici++;
+                     }
+                 }
                 // Stampo i risultati
             
             System.out.println("Caratteri alfabetici: " + caratteriAlfabetici);
