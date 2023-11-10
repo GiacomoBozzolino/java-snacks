@@ -23,7 +23,6 @@ public class Snack4 {
 		 for (int i = noSpace.length() - 1; i >= 0; i--) {
 	            rev = rev + noSpace.charAt(i);
 	        }
-		 
 		 System.out.println(rev);
 		 
 //		 confronto tra le due stringhe
